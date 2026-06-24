@@ -25,11 +25,11 @@
 }
 
 
-.l1{grid-area: l1;}
-.l2{grid-area: l2;}
-.l3{grid-area: l3;}
-.l4{grid-area: l4;}
-.l5{grid-area: l5;}
+.l0{grid-area: l1;}
+.l1{grid-area: l2;}
+.l2{grid-area: l3;}
+.l3{grid-area: l4;}
+.l4{grid-area: l5;}
 
 .letter{
     width: 50px;
@@ -40,9 +40,6 @@
     font-weight: normal;
     text-transform: uppercase;
     border-radius: 5px;
-
-    
-
 }
 
 
