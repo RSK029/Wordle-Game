@@ -1,53 +1,80 @@
 # Wordle Clone
 
-A simple Wordle-inspired word guessing game built using HTML, CSS, and JavaScript.
+A Wordle-inspired browser game built with **HTML, CSS, and Vanilla JavaScript**. The game challenges players to guess a hidden five-letter word in six attempts while providing color-coded feedback for each guess.
 
 ## Features
 
-* 6 attempts to guess a 5-letter word
-* Input validation for letters
-* Automatic cursor movement between boxes
-* Backspace navigation
-* Row-based game board
-* Word validation using an external API (in progress)
+* 🎯 6 attempts to guess a 5-letter word
+* ⌨️ Keyboard-based gameplay
+* 🔤 Automatic cursor movement between input boxes
+* ⬅️ Backspace navigation
+* ✅ Word validation using the Frontend Masters Word API
+* 🟩🟨⬜ Letter feedback (correct position, wrong position, not in word)
+* 🎮 Row-by-row gameplay similar to the original Wordle
+* 📝 Input validation (letters only)
 
-## Technologies Used
+## Built With
 
 * HTML5
 * CSS3
-* JavaScript (Vanilla JS)
+* Vanilla JavaScript
+* Fetch API (REST API)
+
+## Project Structure
+
+```text
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
 
 ## Current Status
 
-🚧 Work in Progress
+🚧 **Nearly Complete**
 
-Completed:
+### Completed
 
-* Game UI
+* Game board UI
 * Input handling
-* Board management
 * Cursor navigation
+* Backspace support
+* Game state management
+* Word validation API integration
+* Letter comparison logic
+* Tile coloring (Green / Yellow / Gray)
 
-Planned:
+### Coming Soon
 
-* API integration
-* Letter color feedback (green/yellow/gray)
-* Win/Loss detection
-* Game reset functionality
+* Tile flip animations
+* UI polishing
+* End-game animations
+* Restart / Play Again option
 
 ## How to Run
 
-1. Clone the repository
-2. Open `index.html` in your browser
+1. Clone the repository.
+2. Open `index.html` in your browser.
+3. Start guessing the hidden word!
 
 ## What I Learned
 
 * DOM manipulation
-* Event handling
-* Arrays and game state management
-* Keyboard input processing
+* Event handling in JavaScript
+* Asynchronous programming (`async` / `await`)
+* Working with REST APIs using `fetch`
+* JSON parsing
+* Game state management
 * Git and GitHub workflow
+
+## Future Improvements
+
+* On-screen keyboard
+* Dark/Light theme
+* Statistics tracking
+* Mobile responsiveness
+* Better animations and transitions
 
 ## Author
 
-Rohan Saini
+**Rohan Saini**
